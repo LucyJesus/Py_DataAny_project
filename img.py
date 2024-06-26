@@ -50,6 +50,7 @@ df_br = pd.read_csv(bir_rt)
 df_d = pd.read_csv(death)
 df_dr = pd.read_csv(dea_rt)
 
+print(df_b,df_b.index,df_b.columns,sep = '\n')
 
 def birth_tt():
     df_b1 = df_b.loc[18072:18143,'Year':'Births']
@@ -78,6 +79,33 @@ def death_tt():
     plt.grid(True)
     #输出
     plt.savefig('world_total_death_in_year.png')
+
+
+
+ls =list()
+for i in range(0,18289,72):
+    x = df_b.iloc[i:i+72,2]
+    p=x.sum()
+    ls.append(p)
+    print(x,end = '\n\n\n')
+print(ls)
+    
+
+
+
+'''ls.append(x[0].sum())
+print(ls)'''
+
+
+
+
+'''slc = list(range(0,18360,72))
+print(df_b.loc[slc,'Year':'Births'])'''
+
+'''
+def most_nmb(x):
+    a = x.loc[]'''
+
 
 '''def birth_rt():'''
 	

@@ -9,12 +9,7 @@
 #	绘制不同国家出生率和死亡率的对比图。
 
 
-
-import pandas as pd
-import numpy as np
-import csv
 import os
-import matplotlib.pyplot as plt
 from img import birth_tt,death_tt
 
 
