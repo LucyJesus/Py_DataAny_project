@@ -16,7 +16,7 @@ import csv
 import os
 import matplotlib.pyplot as plt
 import random
-import math
+
 
 #print("hello world!")
 
@@ -26,9 +26,6 @@ print("Script directory:", script_dir)
 
 # 切换工作目录到脚本所在目录
 os.chdir(script_dir)
-#print("Current working directory after change:", os.getcwd())
-########################################################################
-# 取路径
 
 def color():
     a = random.random()
@@ -50,7 +47,7 @@ df_br = pd.read_csv(bir_rt)
 df_d = pd.read_csv(death)
 df_dr = pd.read_csv(dea_rt)
 
-print(df_b,df_b.index,df_b.columns,sep = '\n')
+#print(df_b,df_b.index,df_b.columns,sep = '\n')
 
 def birth_tt():
     df_b1 = df_b.loc[18072:18143,'Year':'Births']
@@ -75,32 +72,39 @@ def death_tt():
     plt.ylabel('death_nmb')#
     plt.title('world_total_death_in_year')#
     plt.xticks(rotation=45)
-    # 显示网格线
     plt.grid(True)
-    #输出
     plt.savefig('world_total_death_in_year.png')
 
 
+def most_10_birth():
+    # 计算每个国家的总出生人数
+    total_births = df_b.groupby('Country name')['Births'].sum().reset_index()
+    total_births = total_births.sort_values(by='Births', ascending=False).head(20)
 
-ls =list()
-for i in range(0,18289,72):
-    x = df_b.iloc[i:i+72,2]
-    p=x.sum()
-    ls.append(p)
-    print(x,end = '\n\n\n')
-print(ls)
-    
+    # 绘制前十个出生人数最多的国家的柱状图
+    plt.figure(figsize=(14, 7))
+    plt.bar(total_births['Country name'], total_births['Births'], color=color())
+    plt.xlabel('Country')
+    plt.ylabel('Total Births')
+    plt.title('Top 10 Countries by Total Births')
+    plt.xticks(rotation=45)
+    plt.grid(True)
+    plt.savefig('world_most_10_birth_in_year.png')
 
+def most_10_death():
+    # 计算每个国家的总死亡人数
+    total_deaths = df_d.groupby('Country name')['Deaths'].sum().reset_index()
+    total_deaths = total_deaths.sort_values(by='Deaths', ascending=False).head(20)
 
-
-'''ls.append(x[0].sum())
-print(ls)'''
-
-
-
-
-'''slc = list(range(0,18360,72))
-print(df_b.loc[slc,'Year':'Births'])'''
+    # 绘制前十个死亡人数最多的国家的柱状图
+    plt.figure(figsize=(14, 7))
+    plt.bar(total_deaths['Country name'], total_deaths['Deaths'], color=color())
+    plt.xlabel('Country')
+    plt.ylabel('Total Deaths')
+    plt.title('Top 10 Countries by Total Deaths')
+    plt.xticks(rotation=45)
+    plt.grid(True)
+    plt.savefig('world_most_10_death_in_year.png')
 
 '''
 def most_nmb(x):

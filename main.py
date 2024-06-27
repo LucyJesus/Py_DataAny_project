@@ -10,7 +10,7 @@
 
 
 import os
-from img import birth_tt,death_tt
+import img
 
 
 print("hello world!")
@@ -21,5 +21,7 @@ os.chdir(script_dir)
 
 
 #主代码部分
-birth_tt()
-death_tt()
+img.birth_tt()
+img.death_tt()
+img.most_10_birth()
+img.most_10_death()
