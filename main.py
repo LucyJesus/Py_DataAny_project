@@ -10,8 +10,9 @@
 
 
 import os
-import two
-import three
+import one as o
+import two_1 as tw
+import three as tr
 
 
 print("hello world!")
@@ -21,17 +22,19 @@ os.chdir(script_dir)
 
 
 #主代码部分
+o.clean()
 
-two.global_all()
-two.most_10b()
-two.most_10d()
-two.in_year_global_b_d()
-two.global_b_d_r()
-two.each_b_d_r()
-two.combine()
+tw.global_all()
+tw.most_10b()
+tw.most_10d()
+tw.in_year_global_b_d()
+tw.global_b_d_r()
+tw.each_b_d_r()
+tw.combine()
 
-three.birth_and_death_tt()
-three.most_10_birth()
-three.most_10_death()
-three.yearly_birth_and_death_increase_plot()
-three.daily_increase_plot()
+tr.birth_and_death_tt()
+tr.most_10_birth()
+tr.most_10_death()
+tr.yearly_birth_and_death_increase_plot()
+tr.daily_increase_plot()
+tr.b_d_compare('United States', 'China')

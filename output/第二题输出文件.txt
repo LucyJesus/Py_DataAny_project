@@ -1,0 +1,69 @@
+全球总出生: 60796835074
+总死亡: 23635110902
+出生人数最多的前十个国家:
+Country name
+India            1736563802
+China            1582454917
+Indonesia         324234348
+Nigeria           303496381
+Pakistan          299225942
+United States     272147302
+Brazil            241549750
+Bangladesh        231445437
+Ethiopia          157685662
+Mexico            154880593
+Name: Births, dtype: int64
+死亡人数最多的前十个国家:
+Country name
+China            678780442
+India            666302479
+United States    151933146
+Nigeria          125277310
+Indonesia        118821384
+Russia           114779414
+Pakistan          85006345
+Bangladesh        80320627
+Brazil            80309157
+Japan             67949514
+Name: Deaths, dtype: int64
+按年份计算全球每年出生人数和死亡人数:
+         Births     Deaths
+Year                      
+1950  590102115  313586143
+1951  595820717  311725766
+1952  626077009  306455768
+1953  627337344  305656586
+1954  645605058  302785210
+...         ...        ...
+2017  970249655  367044003
+2018  953204296  369702277
+2019  943660177  373774673
+2020  926922904  407332502
+2021  920406730  448549176
+
+[72 rows x 2 columns]
+Global birth rate: 26.29 per 1000 people
+Global death rate: 10.22 per 1000 people
+各国出生率和死亡率:
+                   birth_rate  death_rate
+Country name                             
+Afghanistan         45.452162   15.710269
+Albania             23.388681    8.364540
+Algeria             30.881262    9.115526
+American Samoa      30.837994    5.321515
+Andorra             12.042302    5.840749
+...                       ...         ...
+Wallis and Futuna   28.031877    9.160690
+Western Sahara      26.945422    9.382617
+Yemen               42.352271   11.789009
+Zambia              43.716026   12.474797
+Zimbabwe            38.211001   12.104307
+
+[236 rows x 2 columns]
+选定国家的基本统计数据:
+                     Births                                  Deaths                         
+                       mean      median           var          mean     median           var
+Country name                                                                                
+Brazil         3.354858e+06   3388079.0  1.537456e+11  1.115405e+06  1070796.0  1.959275e+10
+India          2.411894e+07  24805573.0  1.458342e+13  9.254201e+06  9247825.5  4.119849e+11
+United States  3.779824e+06   3883731.0  9.894295e+10  2.110183e+06  2068270.5  1.734109e+11
