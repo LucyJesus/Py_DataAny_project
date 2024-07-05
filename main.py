@@ -10,7 +10,8 @@
 
 
 import os
-import img
+import two
+import three
 
 
 print("hello world!")
@@ -19,9 +20,18 @@ os.chdir(script_dir)
 #####################################################################
 
 
-
 #主代码部分
-img.birth_tt()
-img.death_tt()
-img.most_10_birth()
-img.most_10_death()
+
+two.global_all()
+two.most_10b()
+two.most_10d()
+two.in_year_global_b_d()
+two.global_b_d_r()
+two.each_b_d_r()
+two.combine()
+
+three.birth_and_death_tt()
+three.most_10_birth()
+three.most_10_death()
+three.yearly_birth_and_death_increase_plot()
+three.daily_increase_plot()
