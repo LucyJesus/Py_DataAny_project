@@ -1,0 +1,42 @@
+# Fdb version 4
+["xdvipdfmx"] 1720325779.65283 "combine.xdv" "combine.pdf" "combine" 1720325779.91324 0
+  "combine.xdv" 1720325779.60431 10696 d932ed95a5aa8b63d521b803905ddac6 "xelatex"
+  (generated)
+  "combine.pdf"
+  (rewritten before read)
+["xelatex"] 1720325779.14094 "/Users/yangshicheng/Documents/python/Py_DataAny_project/paper/combine.tex" "combine.xdv" "combine" 1720325779.91292 0
+  "/Users/yangshicheng/Documents/python/Py_DataAny_project/paper/combine.tex" 1720325754.24939 249 3ed0120a8c5453e4837afc55649eb867 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty" 1644112042 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls" 1717359999 20144 67a5f8e0f9e445e8ec6834e595cebdc9 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty" 1717359999 5525 3792dcd5bc92158cfaf00cc591e557cf ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo" 1717359999 8448 358bf3de18513f057a13bdc6e6770c41 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd" 1705352648 2430 fce77d7e103eb98b6c4d486ae1d466c0 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/eso-pic/eso-pic.sty" 1683144721 11876 6ef493863ae0d7a984706973240c2237 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/xetex.def" 1663965824 14788 1dde73f396dd97d88c838bee2a352abe ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty" 1717359999 18363 b79c83eab17bf475b508f05e9807e605 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty" 1717359999 8010 6f2ad8c2b2ffbd607af6475441c7b5e4 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty" 1717359999 2671 70891d50dac933918b827d326687c6e8 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/lscape.sty" 1717359999 1822 ce7e39e35ea3027d24b527bd5c5034d5 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx" 1667332637 2885 9c645d672ae17285bba324998918efd8 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty" 1717359999 4023 2c9f39712cf7b43d3eb93a8bbd5c8f67 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-xetex.def" 1716410060 31593 96a7f07a08af85a2bbfee2e0a9cdbb50 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty" 1667072951 6572 ea530fbbe537629fd97736d33babc07d ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty" 1667072951 2224 1230ab76aa62221ccbd90bca8c8c015e ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/pdfpages/pdfpages.sty" 1717013577 54914 f3a812b25ed2b3a852ef4989c2e19090 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/pdfpages/ppxetex.def" 1717013577 6607 8153a22b831d57be514407c01b61f6c6 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/tools/calc.sty" 1717359999 10214 61188260d324e94bc2f66825d7d3fdf4 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty" 1700082560 55487 80a65caedd3722f4c20a14a69e785d8f ""
+  "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1719785820 42007 0b741a3c21a5ca32b40e3846e75b3548 ""
+  "/usr/local/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt" 1720292969 10868498 912765469753795eaf7bff960fbce087 ""
+  "/usr/local/texlive/2024/texmf.cnf" 1720292830.02487 577 e590dabc9e28c5b61546e15f63eebcdf ""
+  "combine.aux" 1720325779.60365 33 bdbf764baf0c139c53f5362d5edc4a6b "xelatex"
+  "combine.tex" 1720325754.24939 249 3ed0120a8c5453e4837afc55649eb867 ""
+  "paper.pdf" 1720325328.87756 1044802 67e28f29d87de5ef9e31d8f0873bd2fe ""
+  "实践作品、论文最新模板.pdf" 1720325432.64973 759368 16c904f01f5cf1acf02e48c660861a0b ""
+  (generated)
+  "combine.aux"
+  "combine.log"
+  "combine.xdv"
+  (rewritten before read)

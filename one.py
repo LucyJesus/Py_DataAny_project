@@ -38,24 +38,9 @@ def clean():
     s= {'Year':list2,'Deaths':list3}
     data_Death = pd.DataFrame(s,[list1]) 
 
-    # print(data_Population.isnull().sum())  #检查是否有缺失值
-    # print(data_Population.duplicated())    #检查是否有重复行
-    # print(data_Population.dtypes)          #检查数据类型
 
-    # print(data_Birth.isnull().sum())  #检查是否有缺失值
-    # print(data_Birth.duplicated())    #检查是否有重复行
-    # print(data_Birth.dtypes)          #检查数据类型
     data_Birth['Births']=data_Birth['Births'].astype('int64')   #修改数据类型为整形
-    # print(data_Birth.dtypes)          #再次检查
 
-    # print(data_Death.isnull().sum())  #检查是否有缺失值
-    # print(data_Death.duplicated())    #检查是否有重复行
-    # print(data_Death.dtypes)          #检查数据类型
-
-    # print(data_Population)
-    # print(data_Birth)
-    # print(data_Death)
-    # 指定输出文件路径
     population_output_path = os.path.join(output_folder, '人口数据(已清洗).csv')
     birth_output_path = os.path.join(output_folder, '出生数据(已清洗).csv')
     death_output_path = os.path.join(output_folder, '死亡数据(已清洗).csv')
